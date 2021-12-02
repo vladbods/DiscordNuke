@@ -14,8 +14,8 @@ Acesta este un repository care contine codul sursa al unui bot de tip nuke pentr
 8. Dati clic pe "New Bot" pentru a crea botul.
 9. **ACTIVATI PRESENCE INTENT SI SERVER MEMBERS INTENT!**
 10. Dati clic pe Copy, sus, la Token pentru a copia tokenul botului.
-11. Intoarceti-va la folderul botului, intrati in el, si deschideti "slappey.json", iar acolo unde scrie "token", inlocuiti INLOCUIESTE CU TOKENUL BOTULUI TAU cu tokenul copiat (NU STERGETI ""). **NU UITATI SA APASATI DUPA PE FILE -> SAVE!"
-12. Deschideti "config.json" si inlocuiti INLOCUIESTE CU IDUL TAU DE PE DISCORD cu ID-ul vostru de pe Discord (https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) (NU STERGETI ""). **NU UITATI SA APASATI DUPA PE FILE -> SAVE!"
+11. Intoarceti-va la folderul botului, intrati in el, si deschideti "slappey.json", iar acolo unde scrie "token", inlocuiti INLOCUIESTE CU TOKENUL BOTULUI TAU cu tokenul copiat (NU STERGETI ""). **NU UITATI SA APASATI DUPA PE FILE -> SAVE!"**
+12. Deschideti "config.json" si inlocuiti INLOCUIESTE CU IDUL TAU DE PE DISCORD cu ID-ul vostru de pe Discord (https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) (NU STERGETI ""). **NU UITATI SA APASATI DUPA PE FILE -> SAVE!"**
 13. Intoarceti-va la aplicatia de pe discord developer, deschideti "OAuth2" si copiati Client Id.
 14. Intrati pe https://discordapi.com/permissions.html, alegeti optinuea de "Manage Channels" (optional si de "Administrator"), apoi dati paste la Client Id in casuta "Client ID" si dati copy la linkul care va apare jos, cu alb.
 15. Intoarceti-va in CMD si rulati comanda "npm run start" pentru a porni botul (daca va apare vreo eroare, revizuiti pasii anteriori);
