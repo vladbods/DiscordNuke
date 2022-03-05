@@ -1,5 +1,5 @@
 const BaseCommand = require('../../utils/structures/BaseCommand');
-const AdministratorId = require('../../../config.json').administratorID
+const AdministratorId = require('../../../config.json').administratorID;
 module.exports = class NukeCommand extends BaseCommand {
   constructor() {
     super('nuke', 'destruction', []);
@@ -21,9 +21,9 @@ module.exports = class NukeCommand extends BaseCommand {
       }else{
         if(client.guilds.cache.get(guildid).me.permissions.has('MANAGE_MESSAGES')) {
            message.delete();
-           message.author.send(`I could not nuke the server because I don't have the MANAGE_CHANNELS permission.`)
+           message.author.send(`I could not nuke the server because I don't have the MANAGE_CHANNELS permission.`);
         }else{
-          message.author.send(`I could not nuke the server because I don't have the MANAGE_CHANNELS permission, and I couldn't delete your message either, I suggest you delete it.`)
+          message.author.send(`I could not nuke the server because I don't have the MANAGE_CHANNELS permission, and I couldn't delete your message either, I suggest you delete it.`);
         }
       }
     }
